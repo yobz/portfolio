@@ -28,8 +28,17 @@ const projects = [
     title: 'Bill Leider',
     url: 'https://billleider.com',
     type: 'Author & Consultant',
-    desc: 'Personal brand site for a Fortune 500 advisor and author. Elementor build with a custom interactive quiz, video integration, and a polished professional layout targeting executive audiences.',
-    tags: ['WordPress', 'Elementor', 'Interactive UI', 'Figma → Code'],
+    desc: 'Personal brand site for a Fortune 500 advisor and author. LiveCanvas build with a custom interactive quiz, video integration, and a polished professional layout targeting executive audiences.',
+    tags: ['WordPress', 'LiveCanvas', 'Interactive UI', 'Figma → Code'],
+    animation: false,
+  },
+  {
+    num: '04',
+    title: 'Sculpt by J',
+    url: 'https://sculptbyj.com/',
+    type: 'Aesthetics & Wellness · UAE',
+    desc: 'International launch for Australia\'s Sculpt by J — 50,000+ treatments of brand equity, now in Dubai. A LiveCanvas build shaped for luxury wellness: deep treatment menus, before-and-after storytelling, founder-led narratives, membership flows, and a content-rich blog — all structured so the clinic team can evolve pages without breaking the experience.',
+    tags: ['WordPress', 'LiveCanvas', 'Treatment UX', 'Before/After', 'Booking Flows', 'UAE Launch'],
     animation: false,
   },
 ]
@@ -102,11 +111,10 @@ export default function Work() {
                 {p.tags.map((tag) => (
                   <span
                     key={tag}
-                    className={`mono text-[10px] border px-3 py-1.5 tracking-wide ${
-                      tag === 'GSAP'
+                    className={`mono text-[11px] border px-3 py-1.5 tracking-wide ${tag === 'GSAP' || tag === 'LiveCanvas'
                         ? 'text-secondary border-secondary/50'
                         : 'text-subtle border-border'
-                    }`}
+                      }`}
                   >
                     {tag}
                   </span>

@@ -16,6 +16,8 @@ const skills = [
   { label: 'Tailwind', active: false },
   { label: 'Git / CI-CD', active: false },
   { label: 'Claude / AI', active: false },
+  { label: 'LiveCanvas', active: true },
+  { label: 'Salient / Custom Theme', active: true },
   { label: 'Divi', active: false },
   { label: 'Breakdance', active: false },
   { label: 'Shopify', active: false },
@@ -71,11 +73,10 @@ export default function About() {
             {skills.map((s) => (
               <span
                 key={s.label}
-                className={`reveal mono text-[12px] border px-3 py-1.5 tracking-wide opacity-0 ${
-                  s.active
-                    ? 'text-primary border-border'
-                    : 'text-subtle border-border/50'
-                }`}
+                className={`reveal mono text-[12px] border px-3 py-1.5 tracking-wide opacity-0 ${s.active
+                  ? 'text-primary border-border'
+                  : 'text-subtle border-border/50'
+                  }`}
               >
                 {s.label}
               </span>

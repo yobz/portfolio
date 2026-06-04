@@ -1,7 +1,7 @@
 const stats = [
   { value: '10+', label: 'Years experience' },
   { value: '50+', label: 'Sites shipped' },
-  { value: '3', label: 'Featured projects' },
+  { value: '4', label: 'Featured projects' },
 ]
 
 export default function Stats() {
