@@ -34,7 +34,7 @@ export default function Nav() {
           scrolled || menuOpen ? 'bg-bg/90 backdrop-blur-sm border-b border-border' : ''
         }`}
       >
-        <span className="mono text-[13px] text-white tracking-widest">
+        <span className="text-sm sm:text-base text-white tracking-widest font-normal">
           cm<span className="text-subtle">.</span>dev
         </span>
 
@@ -43,7 +43,7 @@ export default function Nav() {
             <li key={link}>
               <a
                 href={`#${link}`}
-                className="mono text-[12px] text-secondary uppercase tracking-widest2 hover:text-primary transition-colors duration-200 relative group py-2"
+                className="label text-sm text-secondary hover:text-primary transition-colors duration-200 relative group py-2"
               >
                 {link}
                 <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-primary transition-all duration-300 group-hover:w-full" />
@@ -73,7 +73,7 @@ export default function Nav() {
                 <a
                   href={`#${link}`}
                   onClick={closeMenu}
-                  className="block mono text-[14px] text-secondary uppercase tracking-widest2 py-4 border-b border-border hover:text-primary transition-colors duration-200"
+                  className="block label text-base text-secondary py-4 border-b border-border hover:text-primary transition-colors duration-200"
                 >
                   {link}
                 </a>

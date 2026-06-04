@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'monospace'],
+      },
+      fontSize: {
+        'body-lg': ['1.0625rem', { lineHeight: '1.7' }],
       },
       colors: {
         bg: '#0a0a0a',

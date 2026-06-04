@@ -43,37 +43,37 @@ export default function About() {
 
   return (
     <section id="about" ref={sectionRef} className="px-5 sm:px-8 lg:px-12 py-16 sm:py-24 border-t border-border">
-      <div className="mono text-[10px] text-subtle uppercase tracking-widest2 mb-16 reveal opacity-0">
+      <div className="label text-sm text-subtle mb-16 reveal opacity-0">
         // about
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 md:gap-20">
         <div>
-          <p className="text-[15px] text-secondary font-light leading-relaxed mb-6 reveal opacity-0">
+          <p className="text-base sm:text-body-lg text-secondary font-light leading-relaxed mb-6 reveal opacity-0">
             Based in Bacolod, Philippines. 10+ years building responsive, performant websites
             for digital agencies and global clients — with a focus on faithful design execution
             and front-end craft.
           </p>
-          <p className="text-[15px] text-secondary font-light leading-relaxed mb-6 reveal opacity-0">
+          <p className="text-base sm:text-body-lg text-secondary font-light leading-relaxed mb-6 reveal opacity-0">
             I specialise in translating Figma mockups into pixel-precise Elementor and custom
             WordPress builds. My workflow integrates GSAP for animations that feel intentional —
             not decorative.
           </p>
-          <p className="text-[15px] text-secondary font-light leading-relaxed reveal opacity-0">
+          <p className="text-base sm:text-body-lg text-secondary font-light leading-relaxed reveal opacity-0">
             I've worked directly with Australian founders and agencies, and I bring AI-assisted
             tooling into my daily workflow to ship faster without cutting corners.
           </p>
         </div>
 
         <div>
-          <div className="mono text-[10px] text-subtle uppercase tracking-widest2 mb-6 reveal opacity-0">
+          <div className="label text-sm text-subtle mb-6 reveal opacity-0">
             // core stack
           </div>
           <div className="flex flex-wrap gap-2">
             {skills.map((s) => (
               <span
                 key={s.label}
-                className={`reveal mono text-[12px] border px-3 py-1.5 tracking-wide opacity-0 ${s.active
+                className={`reveal text-sm border px-3 py-2 font-normal tracking-normal opacity-0 ${s.active
                   ? 'text-primary border-border'
                   : 'text-subtle border-border/50'
                   }`}

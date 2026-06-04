@@ -24,7 +24,7 @@ export default function Contact() {
 
   return (
     <section id="contact" ref={sectionRef} className="px-5 sm:px-8 lg:px-12 py-16 sm:py-24 border-t border-border">
-      <div className="mono text-[10px] text-subtle uppercase tracking-widest2 mb-16 reveal opacity-0">
+      <div className="label text-sm text-subtle mb-16 reveal opacity-0">
         // contact
       </div>
 
@@ -34,7 +34,7 @@ export default function Contact() {
           <span className="text-subtle">worth visiting.</span>
         </h2>
 
-        <p className="text-[14px] text-secondary font-light leading-relaxed mb-12 reveal opacity-0">
+        <p className="text-base text-secondary font-light leading-relaxed mb-12 reveal opacity-0">
           Open to full-time opportunities and select freelance projects.
           Based in Bacolod — available for in-person work at WrkPod.
         </p>
@@ -45,10 +45,10 @@ export default function Contact() {
             className="group flex items-center justify-between gap-4 border border-border px-5 sm:px-6 py-4 min-h-[64px] hover:border-secondary transition-colors duration-200"
           >
             <div className="min-w-0">
-              <div className="mono text-[10px] text-subtle uppercase tracking-widest2 mb-1">Email</div>
-              <div className="text-[14px] text-primary font-light break-all">cs.miasco@gmail.com</div>
+              <div className="label text-sm text-subtle mb-1">Email</div>
+              <div className="text-base text-primary font-light break-all">cs.miasco@gmail.com</div>
             </div>
-            <span className="mono text-[12px] text-subtle shrink-0 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-200">
+            <span className="text-sm text-subtle shrink-0 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-200">
               ↗
             </span>
           </a>
@@ -60,10 +60,10 @@ export default function Contact() {
             className="group flex items-center justify-between gap-4 border border-border px-5 sm:px-6 py-4 min-h-[64px] hover:border-secondary transition-colors duration-200"
           >
             <div className="min-w-0">
-              <div className="mono text-[10px] text-subtle uppercase tracking-widest2 mb-1">LinkedIn</div>
-              <div className="text-[14px] text-primary font-light break-all">linkedin.com/in/clivemiasco</div>
+              <div className="label text-sm text-subtle mb-1">LinkedIn</div>
+              <div className="text-base text-primary font-light break-all">linkedin.com/in/clivemiasco</div>
             </div>
-            <span className="mono text-[12px] text-subtle shrink-0 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-200">
+            <span className="text-sm text-subtle shrink-0 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-200">
               ↗
             </span>
           </a>

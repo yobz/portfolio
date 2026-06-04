@@ -13,7 +13,7 @@ export default function Stats() {
             <p className="text-[clamp(32px,4vw,48px)] font-light text-white tracking-tight">
               {stat.value}
             </p>
-            <p className="mono text-[12px] text-subtle uppercase tracking-widest2 mt-2">
+            <p className="label text-sm text-subtle mt-2">
               {stat.label}
             </p>
           </div>

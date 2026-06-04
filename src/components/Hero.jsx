@@ -44,7 +44,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center px-5 sm:px-8 lg:px-12 pt-28 sm:pt-32 pb-16 sm:pb-20">
       <div ref={eyebrowRef} className="flex items-start sm:items-center gap-3 mb-8 opacity-0">
-        <span className="mono text-[11px] sm:text-[12px] text-secondary uppercase tracking-widest2 leading-relaxed">
+        <span className="label text-sm sm:text-base text-secondary leading-relaxed">
           Frontend Developer &amp; WordPress Specialist
         </span>
       </div>
@@ -66,7 +66,7 @@ export default function Hero() {
         </div>
       </h1>
 
-      <p ref={taglineRef} className="mt-8 mb-14 text-[15px] text-secondary font-light leading-relaxed max-w-[420px] opacity-0">
+      <p ref={taglineRef} className="mt-8 mb-14 text-base sm:text-body-lg text-secondary font-light leading-relaxed max-w-[480px] opacity-0">
         10+ years turning Figma files into responsive, performant websites.
         WordPress, React, GSAP — and everything in between.
       </p>
@@ -74,13 +74,13 @@ export default function Hero() {
       <div ref={ctaRef} className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
         <a
           href="#work"
-          className="mono text-[12px] tracking-widest bg-primary text-bg px-7 py-4 text-center hover:bg-white transition-colors duration-200 opacity-0 min-h-[48px] flex items-center justify-center"
+          className="text-sm sm:text-base tracking-wide bg-primary text-bg px-7 py-4 text-center hover:bg-white transition-colors duration-200 opacity-0 min-h-[48px] flex items-center justify-center"
         >
           View work
         </a>
         <a
           href="#contact"
-          className="mono text-[12px] tracking-widest text-secondary border border-border px-7 py-4 text-center hover:border-subtle hover:text-primary transition-all duration-200 opacity-0 min-h-[48px] flex items-center justify-center"
+          className="text-sm sm:text-base tracking-wide text-secondary border border-border px-7 py-4 text-center hover:border-subtle hover:text-primary transition-all duration-200 opacity-0 min-h-[48px] flex items-center justify-center"
         >
           Get in touch
         </a>

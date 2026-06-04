@@ -72,7 +72,7 @@ export default function Work() {
 
   return (
     <section id="work" ref={sectionRef} className="px-5 sm:px-8 lg:px-12 py-16 sm:py-24">
-      <div className="mono text-[10px] text-subtle uppercase tracking-widest2 mb-16 section-label opacity-0">
+      <div className="label text-sm text-subtle mb-16 section-label opacity-0">
         // selected work
       </div>
 
@@ -87,23 +87,23 @@ export default function Work() {
             className="group flex flex-col md:flex-row md:items-start gap-4 md:gap-6 py-8 sm:py-10 border-t border-border hover:border-secondary transition-colors duration-300 opacity-0"
           >
             <div className="flex-shrink-0 w-20">
-              <span className="mono text-[12px] text-subtle">{p.num}</span>
+              <span className="text-sm text-subtle font-normal">{p.num}</span>
             </div>
 
             <div className="flex-1 min-w-0">
               <div className="flex items-start justify-between gap-4 mb-3">
                 <div className="min-w-0">
-                  <span className="mono text-[10px] text-secondary uppercase tracking-widest2 block mb-2">{p.type}</span>
-                  <h3 className="text-[20px] sm:text-[22px] font-light text-primary group-hover:text-white transition-colors duration-200">
+                  <span className="label text-sm text-secondary block mb-2">{p.type}</span>
+                  <h3 className="text-xl sm:text-2xl font-light text-primary group-hover:text-white transition-colors duration-200">
                     {p.title}
                   </h3>
                 </div>
-                <span className="mono text-[12px] text-subtle mt-1 flex-shrink-0 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 flex items-center gap-1">
+                <span className="text-sm text-subtle mt-1 flex-shrink-0 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 flex items-center gap-1">
                   visit ↗
                 </span>
               </div>
 
-              <p className="text-[14px] text-secondary font-light leading-relaxed mb-5 max-w-xl">
+              <p className="text-base text-secondary font-light leading-relaxed mb-5 max-w-xl">
                 {p.desc}
               </p>
 
@@ -111,7 +111,7 @@ export default function Work() {
                 {p.tags.map((tag) => (
                   <span
                     key={tag}
-                    className={`mono text-[11px] border px-3 py-1.5 tracking-wide ${tag === 'GSAP' || tag === 'LiveCanvas'
+                    className={`text-sm border px-3 py-2 font-normal tracking-normal ${tag === 'GSAP' || tag === 'LiveCanvas'
                         ? 'text-secondary border-secondary/50'
                         : 'text-subtle border-border'
                       }`}
@@ -120,7 +120,7 @@ export default function Work() {
                   </span>
                 ))}
                 {p.animation && (
-                  <span className="mono text-[10px] text-subtle border border-border px-3 py-1.5 tracking-wide flex items-center gap-1.5">
+                  <span className="text-sm text-subtle border border-border px-3 py-2 font-normal tracking-normal flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-secondary inline-block" />
                     animated
                   </span>
