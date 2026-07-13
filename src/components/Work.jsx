@@ -41,6 +41,15 @@ const projects = [
     tags: ['WordPress', 'LiveCanvas', 'Treatment UX', 'Before/After', 'Booking Flows', 'UAE Launch'],
     animation: false,
   },
+  {
+    num: '05',
+    title: 'Sculpt by J',
+    url: 'https://sculptbyj.com.au',
+    type: 'Aesthetics Clinic · Melbourne',
+    desc: 'Home-market site for Sculpt by J\'s Oakleigh studio — the Melbourne clinic behind 50,000+ treatments since 2018. A LiveCanvas build built around proof: a transformation results gallery, treatment-led case studies spanning LipoCel, EMS, and Colombian wood therapy, Sculpt Me membership tiers, Fresha booking, and testimonial pages — so the in-clinic team can keep publishing real client outcomes without a developer.',
+    tags: ['WordPress', 'LiveCanvas', 'Results Gallery', 'Membership UX', 'Fresha Booking', 'Melbourne'],
+    animation: false,
+  },
 ]
 
 export default function Work() {
@@ -112,8 +121,8 @@ export default function Work() {
                   <span
                     key={tag}
                     className={`text-sm border px-3 py-2 font-normal tracking-normal ${tag === 'GSAP' || tag === 'LiveCanvas'
-                        ? 'text-secondary border-secondary/50'
-                        : 'text-subtle border-border'
+                      ? 'text-secondary border-secondary/50'
+                      : 'text-subtle border-border'
                       }`}
                   >
                     {tag}
