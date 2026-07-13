@@ -51,12 +51,12 @@ export default function About() {
         <div>
           <p className="text-base sm:text-body-lg text-secondary font-light leading-relaxed mb-6 reveal opacity-0">
             Based in Bacolod, Philippines. 10+ years building responsive, performant websites
-            for digital agencies and global clients — with a focus on faithful design execution
+            for digital agencies and global clients, with a focus on faithful design execution
             and front-end craft.
           </p>
           <p className="text-base sm:text-body-lg text-secondary font-light leading-relaxed mb-6 reveal opacity-0">
             I specialise in translating Figma mockups into pixel-precise Elementor and custom
-            WordPress builds. My workflow integrates GSAP for animations that feel intentional —
+            WordPress builds. My workflow integrates GSAP for animations that feel intentional,
             not decorative.
           </p>
           <p className="text-base sm:text-body-lg text-secondary font-light leading-relaxed reveal opacity-0">
