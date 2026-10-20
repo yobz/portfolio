@@ -50,6 +50,15 @@ const projects = [
     tags: ['WordPress', 'LiveCanvas', 'Results Gallery', 'Membership UX', 'Fresha Booking', 'Melbourne'],
     animation: false,
   },
+  {
+    num: '06',
+    title: 'Clive & Rubie Wedding Invitation',
+    url: 'https://clivefoundhisrubie.love/',
+    type: 'Wedding Invitation & RSVP Platform',
+    desc: 'A custom wedding invitation with a responsive photo-led design, animated opening, music, and a personalized RSVP experience. Built with a guest-management dashboard, response tracking, CSV tools, and guest wishes, connecting the celebration with the planning behind it.',
+    tags: ['Next.js', 'React', 'PostgreSQL', 'Responsive UI', 'RSVP & Admin'],
+    animation: true,
+  },
 ]
 
 export default function Work() {
