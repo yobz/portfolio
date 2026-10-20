@@ -7,6 +7,15 @@ gsap.registerPlugin(ScrollTrigger)
 const projects = [
   {
     num: '01',
+    title: 'Clive & Rubie Wedding Invitation',
+    url: 'https://clivefoundhisrubie.love/',
+    type: 'Wedding Invitation & RSVP Platform',
+    desc: 'A custom wedding invitation with a responsive photo-led design, animated opening, music, and a personalized RSVP experience. Built with a guest-management dashboard, response tracking, CSV tools, and guest wishes, connecting the celebration with the planning behind it.',
+    tags: ['Next.js', 'React', 'PostgreSQL', 'Responsive UI', 'RSVP & Admin'],
+    animation: true,
+  },
+  {
+    num: '02',
     title: 'Bounce Creative Agency',
     url: 'https://www.bounce.com.au',
     type: 'Creative Agency',
@@ -15,7 +24,7 @@ const projects = [
     animation: true,
   },
   {
-    num: '02',
+    num: '03',
     title: 'Communal Group',
     url: 'https://cmnl.com.au',
     type: 'Multi-Brand Platform',
@@ -24,7 +33,7 @@ const projects = [
     animation: true,
   },
   {
-    num: '03',
+    num: '04',
     title: 'Bill Leider',
     url: 'https://billleider.com',
     type: 'Author & Consultant',
@@ -33,7 +42,7 @@ const projects = [
     animation: false,
   },
   {
-    num: '04',
+    num: '05',
     title: 'Sculpt by J',
     url: 'https://sculptbyj.com/',
     type: 'Aesthetics & Wellness · UAE',
@@ -42,22 +51,13 @@ const projects = [
     animation: false,
   },
   {
-    num: '05',
+    num: '06',
     title: 'Sculpt by J',
     url: 'https://sculptbyj.com.au',
     type: 'Aesthetics Clinic · Melbourne',
     desc: 'Home-market site for Sculpt by J\'s Oakleigh studio — the Melbourne clinic behind 50,000+ treatments since 2018. A LiveCanvas build built around proof: a transformation results gallery, treatment-led case studies spanning LipoCel, EMS, and Colombian wood therapy, Sculpt Me membership tiers, Fresha booking, and testimonial pages — so the in-clinic team can keep publishing real client outcomes without a developer.',
     tags: ['WordPress', 'LiveCanvas', 'Results Gallery', 'Membership UX', 'Fresha Booking', 'Melbourne'],
     animation: false,
-  },
-  {
-    num: '06',
-    title: 'Clive & Rubie Wedding Invitation',
-    url: 'https://clivefoundhisrubie.love/',
-    type: 'Wedding Invitation & RSVP Platform',
-    desc: 'A custom wedding invitation with a responsive photo-led design, animated opening, music, and a personalized RSVP experience. Built with a guest-management dashboard, response tracking, CSV tools, and guest wishes, connecting the celebration with the planning behind it.',
-    tags: ['Next.js', 'React', 'PostgreSQL', 'Responsive UI', 'RSVP & Admin'],
-    animation: true,
   },
 ]
 
